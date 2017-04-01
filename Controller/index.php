@@ -1,8 +1,8 @@
 <?php
 $host="127.0.0.1";
 $db="library";
-$user="root";
-$pass="irem";
+$user="";
+$pass="";
 $conn=@mysqli_connect($host,$user,$pass) or die("Mysql Baglanamadi");
  
 mysqli_select_db($conn,$db) or die("Veritabanina Baglanilamadi");
